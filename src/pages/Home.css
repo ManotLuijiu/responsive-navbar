@@ -1,0 +1,31 @@
+.container-home h1 {
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.container-home h2 {
+  padding: 0 15px;
+}
+
+.container-home {
+  padding: 15px;
+  text-align: center;
+}
+
+.container-home p {
+  padding-left: 15px;
+}
+
+.home-label {
+  margin: 0 auto 15px;
+  display: inline-block;
+  padding: 4px 11px;
+  border: 1px solid #9383bd;
+  background-color: #f1f0f3;
+  border-radius: 3px;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #32284b;
+}

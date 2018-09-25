@@ -1,0 +1,13 @@
+.container {
+  padding: 15 25px;
+}
+
+.card-body {
+  padding: 11px;
+  text-align: left;
+  border: 1px solid #9383bd;
+  background-color: #f1f0f3;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #32284b;
+}
