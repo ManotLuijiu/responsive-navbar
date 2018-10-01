@@ -8,6 +8,11 @@ const toolbar = props => (
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
+      <div>
+        <a href="/">
+          <img className="logo" src="./static/images/logo.png" alt="mb logo" />
+        </a>
+      </div>
       <div className="toolbar__logo">
         <a href="/">MeansBusiness</a>
       </div>
@@ -16,6 +21,9 @@ const toolbar = props => (
         <ul>
           <li>
             <a href="/">Services</a>
+          </li>
+          <li>
+            <a href="/">About Us</a>
           </li>
           <li>
             <a href="/">Users</a>

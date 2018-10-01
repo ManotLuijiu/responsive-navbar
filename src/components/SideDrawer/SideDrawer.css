@@ -1,7 +1,6 @@
 .side-drawer {
   height: 100%;
   background: white;
-  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -21,23 +20,29 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .side-drawer li {
-  margin: 0.5rem 0;
+  margin: 0.2rem 0;
+}
+
+.side-drawer li:nth-child(2) {
+  margin-top: 1rem;
 }
 
 .side-drawer a {
   color: #1d84b5;
   text-decoration: none;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: #0a2239;
+  text-decoration: none;
+  color: #686f7a;
 }
 
 @media (min-width: 769px) {

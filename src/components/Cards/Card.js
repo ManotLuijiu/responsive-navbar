@@ -8,11 +8,6 @@ class Card extends React.Component {
         <div className="row">
           <div className="col-sm-4">
             <div className="card mb-4">
-              <img
-                src="./static/image/pict.png"
-                alt="Company Reg."
-                className="card-img-top"
-              />
               <div className="card-body">
                 <h5 className="card-title">COMPANY REGISTRATION</h5>
                 <p className="card-text">

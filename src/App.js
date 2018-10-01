@@ -26,13 +26,11 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <div style={{ height: '100%' }}>
+      <div>
         <Toolbar drawerClickHandler={this.drawerTogggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <main style={{ marginTop: '64px' }}>
-          <Home />
-        </main>
+        <Home />
       </div>
     );
   }
