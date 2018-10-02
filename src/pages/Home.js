@@ -25,89 +25,151 @@ class Home extends Component {
         </div>
         <div className="container-fluid">
           <div className="row align-items-center" id="services">
-            <div id="tasks" className="col-sm-3 col-md-6 col-lg-3">
-              {/* <FontAwesomeIcon icon="tasks" /> */}
+            <div
+              id="tasks"
+              className="d-flex justify-content-around col-xs-6 col-md-6 col-lg-3"
+            >
               <div
-                className="card text-white bg-primary mb-3"
-                style={{ maxWidth: '18rem' }}
+                className="card text-white bg-info mb-3"
+                style={{ maxWidth: '25rem' }}
               >
                 <div className="card-header">
                   <FontAwesomeIcon icon="tasks" />
                 </div>
                 <div className="card-body">
-                  <h5 class="card-title">Company Regisration</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5 className="card-title">Company Regisration</h5>
+                  <ul className="card-text">
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Officia, facere.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Officia, facere.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Officia, facere.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Officia, facere.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Officia, facere.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div id="calculator" className="col-sm-3 col-md-6 col-lg-3">
-              <FontAwesomeIcon icon="calculator" />
-              <h4>Taxation &amp; Bookkeeping</h4>
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-              </ul>
+            <div
+              id="calculator"
+              className="d-flex justify-content-around col-xs-6 col-md-6 col-lg-3"
+            >
+              <div className="card bg-light mb-3" style={{ maxWidth: '25rem' }}>
+                <div className="card-header">
+                  <FontAwesomeIcon icon="calculator" />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Info card title</h5>
+                  <ul className="card-text">
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Debitis, incidunt.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Debitis, incidunt.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Debitis, incidunt.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Debitis, incidunt.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Debitis, incidunt.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div id="database" className="col-sm-3 col-md-6 col-lg-3">
-              <FontAwesomeIcon icon="database" />
-              <h4>Administration Reports</h4>
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-              </ul>
+            <div
+              id="database"
+              className="d-flex justify-content-around col-xs-6 col-md-6 col-lg-3"
+            >
+              <div
+                className="card text-white bg-info mb-3"
+                style={{ maxWidth: '25rem' }}
+              >
+                <div className="card-header">
+                  <FontAwesomeIcon icon="database" />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Success card title</h5>
+                  <ul className="card-text">
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam, ea.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam, ea.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam, ea.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam, ea.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam, ea.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div id="desktop" className="col-sm-3 col-md-6 col-lg-3">
-              <FontAwesomeIcon icon="desktop" />
-              <h4>IT Infrastructure</h4>
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat, quis.
-                </li>
-              </ul>
+            <div
+              id="desktop"
+              className="d-flex justify-content-around col-xs-6 col-md-6 col-lg-3"
+            >
+              <div className="card bg-light mb-3" style={{ maxWidth: '25rem' }}>
+                <div className="card-header">
+                  <FontAwesomeIcon icon="desktop" />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Light card title</h5>
+                  <ul className="card-text">
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Porro, dignissimos!
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Porro, dignissimos!
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Porro, dignissimos!
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Porro, dignissimos!
+                    </li>
+                    <li>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Porro, dignissimos!
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

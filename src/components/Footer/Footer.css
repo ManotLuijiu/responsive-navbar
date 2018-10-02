@@ -1,0 +1,55 @@
+.page-footer {
+  background-color: #3b687d;
+  color: #f4f9fd;
+}
+
+#footer-row {
+  background-color: #3b687d;
+}
+
+.list-unstyled a {
+  color: #f4f9fd;
+}
+
+.list-unstyled a:hover,
+.list-unstyled a:active {
+  color: #aab9cf;
+  text-decoration: none;
+}
+
+#company-info {
+  font-family: 'Rubik', sans-serif;
+}
+
+#company-info h5 {
+  font-weight: 700;
+}
+
+.footer-copyright {
+  background-color: #3b687d;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+}
+
+.footer-copyright a {
+  font-family: 'Rubik', sans-serif;
+  color: #f4f9fd;
+  font-weight: 700;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:active {
+  color: #aab9cf;
+  text-decoration: none;
+}
+
+.fb-ic,
+.tw-ic,
+.li-ic {
+  color: #f4f9fd;
+}
+
+#social-ic a:hover,
+#social-ic a:active {
+  color: #aab9cf;
+}

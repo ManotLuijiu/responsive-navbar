@@ -3,6 +3,7 @@ import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './pages/Home';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   state = {
@@ -31,6 +32,7 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <Home />
+        <Footer />
       </div>
     );
   }

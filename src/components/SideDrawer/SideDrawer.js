@@ -36,10 +36,16 @@ const sideDrawer = props => {
           <a href="/">Services</a>
         </li>
         <li>
+          <a href="/">Blog &amp; Docs</a>
+        </li>
+        <li>
           <a href="/">About Us</a>
         </li>
         <li>
           <a href="/">Users</a>
+        </li>
+        <li>
+          <a href="/">API</a>
         </li>
       </ul>
     </nav>
