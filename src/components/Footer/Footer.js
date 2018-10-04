@@ -23,10 +23,22 @@ const footer = () => (
               icon={['fab', 'twitter']}
             />
           </a>
+          <a href="/" className="sl-ic">
+            <FontAwesomeIcon
+              className="fa-lg white-text mr-md-5 mr-3 fa-2x"
+              icon={['fab', 'slack']}
+            />
+          </a>
           <a href="/" className="li-ic">
             <FontAwesomeIcon
               className="fa-lg white-text mr-md-5 mr-3 fa-2x"
               icon={['fab', 'linkedin']}
+            />
+          </a>
+          <a href="/" className="gh-ic">
+            <FontAwesomeIcon
+              className="fa-lg white-text mr-md-5 mr-3 fa-2x"
+              icon={['fab', 'github']}
             />
           </a>
         </div>

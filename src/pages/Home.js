@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import StartUp from '../images/startup2.png';
 
 class Home extends Component {
   state = {};
   render() {
     return (
       <div>
-        <div className="container" id="showcase">
+        <div className="container-fluid" id="showcase">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-5 col-md-6" id="home-main">
-              <h1>Better choice to start business in digital world.</h1>
-              <p>
-                Are you concerning about company registration, bookkeeping,
-                taxation and IT infrastructure. Don't let these tedious jobs
-                obstruct you.
+            <div className="col-lg-8 col-md-6 py-5" id="home-main">
+              <h1 className="py-3">
+                Better choice to start business in digital world.
+              </h1>
+              <p className="text-center">
+                What is your dream, get your dream come true. Let's do it
+                together.
               </p>
-              <button>Get those jobs done</button>
+              <button type="button" className="btn btn-info my-2">
+                Start up business
+              </button>
             </div>
-            <div className="col-lg-6 col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-              <FontAwesomeIcon icon="coffee" />
+            <div className="col-lg-4 col-md-6 mb-5">
+              <img src={StartUp} className="img-fluid" alt="startup" />
             </div>
           </div>
         </div>

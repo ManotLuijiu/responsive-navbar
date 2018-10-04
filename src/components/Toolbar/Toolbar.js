@@ -4,7 +4,7 @@ import './Toolbar.css';
 
 const toolbar = props => (
   <header className="toolbar">
-    <nav className="toolbar__navigation">
+    <nav className="toolbar__navigation justify-content-between">
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
@@ -17,6 +17,17 @@ const toolbar = props => (
         <a href="/">MeansBusiness</a>
       </div>
       <div className="spacer" />
+      <form className="form-inline">
+        <input
+          type="search"
+          className="form-control mr-sm-2"
+          placeholder="Tax query"
+          aria-label="Search"
+        />
+        <button type="submit" className="btn btn-outline-success my-2 my-sm-0">
+          Search
+        </button>
+      </form>
       <div className="toolbar_navigation-items">
         <ul>
           <li>
