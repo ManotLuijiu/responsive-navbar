@@ -1,0 +1,25 @@
+#technology-row {
+  max-height: 250px;
+  text-align: center;
+}
+
+#technology-tag {
+  font-weight: 700;
+}
+
+#technology-ic {
+  display: inline;
+  margin: auto;
+}
+
+.aws-ic,
+.react-ic,
+.node-ic {
+  font-size: 2rem;
+  color: #3b687d;
+}
+
+#technology-ic a:hover,
+#technology-ic a:active {
+  color: #aab9cf;
+}

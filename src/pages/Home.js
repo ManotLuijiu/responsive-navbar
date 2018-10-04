@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import StartUp from '../images/startup2.png';
+import WebDesign from '../components/WebDesign/WebDesign';
+import Technology from '../components/Technology/Technology';
 
 class Home extends Component {
   state = {};
@@ -76,7 +78,7 @@ class Home extends Component {
                   <FontAwesomeIcon icon="calculator" />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Info card title</h5>
+                  <h5 className="card-title">Taxation &amp; Bookkeeping</h5>
                   <ul className="card-text">
                     <li>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -114,7 +116,7 @@ class Home extends Component {
                   <FontAwesomeIcon icon="database" />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Success card title</h5>
+                  <h5 className="card-title">Executive Reports</h5>
                   <ul className="card-text">
                     <li>
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -149,7 +151,7 @@ class Home extends Component {
                   <FontAwesomeIcon icon="desktop" />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Light card title</h5>
+                  <h5 className="card-title">IT Infrastructure</h5>
                   <ul className="card-text">
                     <li>
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -177,6 +179,8 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <WebDesign />
+        <Technology />
       </div>
     );
   }

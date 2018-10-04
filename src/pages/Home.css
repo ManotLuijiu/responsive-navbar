@@ -34,14 +34,6 @@ body {
   text-align: left;
 }
 
-/* .card {
-  justify-self: auto;
-} */
-
-/* #services h4 {
-  margin-bottom: 2px;
-} */
-
 #tasks,
 #calculator,
 #database,
@@ -53,6 +45,11 @@ body {
 
 .card-header {
   font-size: 2rem;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .card-text {
