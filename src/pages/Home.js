@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import StartUp from '../images/startup2.png';
 import WebDesign from '../components/WebDesign/WebDesign';
 import Technology from '../components/Technology/Technology';
+import MyGoogleMap from '../components/GoogleMap/GoogleMap';
 
 class Home extends Component {
   state = {};
@@ -181,6 +182,7 @@ class Home extends Component {
         </div>
         <WebDesign />
         <Technology />
+        <MyGoogleMap />
       </div>
     );
   }

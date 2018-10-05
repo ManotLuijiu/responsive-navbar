@@ -1,0 +1,39 @@
+#my-contact {
+  font-weight: 700;
+}
+
+#my-contact h4 {
+  font-weight: 900;
+}
+
+#my-contact p {
+  line-height: 1;
+}
+
+#my-contact span {
+  color: #3b687d;
+  line-height: 1;
+}
+
+#my-contact li {
+  border: none;
+}
+
+#line-group {
+  align-self: center;
+}
+
+#line-id {
+  height: 36px;
+  border: 0;
+}
+
+@media (max-width: 460px) {
+  #address-list h4 {
+    font-size: 1.2rem;
+  }
+
+  #address-list li {
+    font-size: 0.8rem;
+  }
+}

@@ -1,7 +1,7 @@
 .page-webdesign {
   padding: 200px 0;
   margin-top: 130px;
-  background: linear-gradient(21deg, #08cdca, #ffffff);
+  background: linear-gradient(21deg, #7bd4f7, #ffffff);
 }
 
 #design-main h1 {
@@ -15,4 +15,11 @@
   color: #212227;
   font-size: 1rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 764px) {
+  .page-webdesign {
+    padding: 80px 0;
+    margin-top: 0px;
+  }
 }
